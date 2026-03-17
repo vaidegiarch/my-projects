@@ -23,16 +23,6 @@ selected = option_menu(
 if selected == "Home":
     st.title("Cross-Market Analysis: Crypto, Oil & Stocks with python & SQL ")
 
-
-# MENU
-selected = option_menu(
-    menu_title=None,
-    options=["Home", "Data Exploration", "SQL Query Runner", "Top 5 Crypto Analysis"],
-    orientation="horizontal"
-)
-
-
-
 elif selected == "Data Exploration":
     st.title("Cross Market Overview")
 
@@ -87,19 +77,6 @@ elif selected == "Data Exploration":
     # SHOW DATA
     st.subheader("Filtered Data")
     st.dataframe(filtered_df)
-
-# MENU
-selected = option_menu(
-    menu_title=None,
-    options=["Home", "Data Exploration", "SQL Query Runner", "Top 5 Crypto Analysis"],
-    orientation="horizontal"
-)
-
-
-
-
-
-
 
 
 elif selected == "SQL Query Runner":
@@ -339,16 +316,6 @@ elif selected == "SQL Query Runner":
 
       result = pd.read_sql_query(query, conn)
       st.dataframe(result)
-
-
-
-# MENU
-selected = option_menu(
-    menu_title=None,
-    options=["Home", "Data Exploration", "SQL Query Runner", "Top 5 Crypto Analysis"],
-    orientation="horizontal"
-)
-
 
 
 elif selected == "Top 5 Crypto Analysis":
