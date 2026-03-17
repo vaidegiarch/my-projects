@@ -31,8 +31,7 @@ selected = option_menu(
     orientation="horizontal"
 )
 
-if selected == "Home":
-    st.title("Cross Market Analysis")
+
 
 elif selected == "Data Exploration":
     st.title("Cross Market Overview")
@@ -99,11 +98,7 @@ selected = option_menu(
 
 
 
-if selected == "Home":
-    st.title("Cross Market Analysis")
 
-elif selected == "Data Exploration":
-    st.title("Cross Market Overview")
 
 
 
@@ -354,20 +349,12 @@ selected = option_menu(
     orientation="horizontal"
 )
 
-if selected == "Home":
-    st.title("Cross Market Analysis")
 
-elif selected == "Data Exploration":
-    st.title("Cross Market Overview")
-
-elif selected == "SQL Query Runner":
-    st.title("SQL Query Runner")
 
 elif selected == "Top 5 Crypto Analysis":
     st.title("Top 5 Crypto Analysis")
 
-    import sqlite3
-    import pandas as pd
+ 
 
     conn = sqlite3.connect("Crypto_prices.db")
 
