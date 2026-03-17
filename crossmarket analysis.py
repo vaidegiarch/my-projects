@@ -1,9 +1,11 @@
+requirements.txt
+streamlit
+pandas
+sqlite3
+streamlit-option-menu
 
 
-import streamlit as st
-import pandas as pd
-import sqlite3
-from streamlit_option_menu import option_menu
+
 
 # DB connection
 conn = sqlite3.connect("merged_data.db")
@@ -21,10 +23,7 @@ selected = option_menu(
 # Home Page
 if selected == "Home":
     st.title("Cross-Market Analysis: Crypto, Oil & Stocks with python & SQL ")
-import streamlit as st
-import pandas as pd
-import sqlite3
-from streamlit_option_menu import option_menu
+
 
 # MENU
 selected = option_menu(
@@ -347,10 +346,7 @@ elif selected == "SQL Query Runner":
       result = pd.read_sql_query(query, conn)
       st.dataframe(result)
 
-import streamlit as st
-import pandas as pd
-import sqlite3
-from streamlit_option_menu import option_menu
+
 
 # MENU
 selected = option_menu(
