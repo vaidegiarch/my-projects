@@ -4,8 +4,6 @@ import sqlite3
 from streamlit_option_menu import option_menu
 
 
-
-
 # DB connection
 conn = sqlite3.connect("merged_data.db")
 
