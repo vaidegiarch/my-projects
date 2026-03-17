@@ -1,4 +1,5 @@
 project - 1
+
 Crypto Currencies Analysis Project
 
 This project analyzes different **Cryptocurrency markets such as Bitcoin and Ethereum using data analysis and visualization techniques. The goal is to study price trends, 
