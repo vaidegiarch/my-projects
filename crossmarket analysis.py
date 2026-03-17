@@ -1,8 +1,4 @@
-requirements.txt
-streamlit
-pandas
-sqlite3
-streamlit-option-menu
+
 
 
 
