@@ -418,8 +418,7 @@ elif selected == "Top 5 Crypto Analysis":
     conn.close()
 
 
-!streamlit run /content/project.py &>/content/logs.txt &
-!grep -o 'https://.*\.trycloudflare.com' nohup.out | head -n 1 | xargs -I {} echo "Your tunnel url {}"
+
 
 
 
